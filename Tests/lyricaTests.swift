@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import randoma
+@testable import lyrica
 
 class randomaTests: XCTestCase {
 

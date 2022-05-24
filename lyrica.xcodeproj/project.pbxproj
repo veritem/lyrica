@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF505B0E283D133F000544D7 /* randomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0D283D133F000544D7 /* randomaApp.swift */; };
+		EF505B0E283D133F000544D7 /* lyricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0D283D133F000544D7 /* lyricaApp.swift */; };
 		EF505B10283D133F000544D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0F283D133F000544D7 /* ContentView.swift */; };
 		EF505B12283D1342000544D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF505B11283D1342000544D7 /* Assets.xcassets */; };
 		EF505B15283D1342000544D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF505B14283D1342000544D7 /* Preview Assets.xcassets */; };
-		EF505B1F283D1342000544D7 /* randomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B1E283D1342000544D7 /* randomaTests.swift */; };
-		EF505B29283D1342000544D7 /* randomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B28283D1342000544D7 /* randomaUITests.swift */; };
-		EF505B2B283D1342000544D7 /* randomaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B2A283D1342000544D7 /* randomaUITestsLaunchTests.swift */; };
+		EF505B1F283D1342000544D7 /* lyricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B1E283D1342000544D7 /* lyricaTests.swift */; };
+		EF505B29283D1342000544D7 /* lyricaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B28283D1342000544D7 /* lyricaUITests.swift */; };
+		EF505B2B283D1342000544D7 /* lyricaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B2A283D1342000544D7 /* lyricaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF505B0A283D133F000544D7 /* randoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF505B0D283D133F000544D7 /* randomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomaApp.swift; sourceTree = "<group>"; };
+		EF505B0A283D133F000544D7 /* lyrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF505B0D283D133F000544D7 /* lyricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaApp.swift; sourceTree = "<group>"; };
 		EF505B0F283D133F000544D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF505B11283D1342000544D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF505B14283D1342000544D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EF505B1A283D1342000544D7 /* randomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF505B1E283D1342000544D7 /* randomaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomaTests.swift; sourceTree = "<group>"; };
-		EF505B24283D1342000544D7 /* randomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF505B28283D1342000544D7 /* randomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomaUITests.swift; sourceTree = "<group>"; };
-		EF505B2A283D1342000544D7 /* randomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF505B1A283D1342000544D7 /* lyricaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lyricaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF505B1E283D1342000544D7 /* lyricaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaTests.swift; sourceTree = "<group>"; };
+		EF505B24283D1342000544D7 /* lyricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lyricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF505B28283D1342000544D7 /* lyricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaUITests.swift; sourceTree = "<group>"; };
+		EF505B2A283D1342000544D7 /* lyricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF505B37283D1CBF000544D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +75,9 @@
 		EF505B01283D133F000544D7 = {
 			isa = PBXGroup;
 			children = (
-				EF505B0C283D133F000544D7 /* randoma */,
-				EF505B1D283D1342000544D7 /* randomaTests */,
-				EF505B27283D1342000544D7 /* randomaUITests */,
+				EF505B0C283D133F000544D7 /* lyrica */,
+				EF505B1D283D1342000544D7 /* Tests */,
+				EF505B27283D1342000544D7 /* lyricaUITests */,
 				EF505B0B283D133F000544D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +85,23 @@
 		EF505B0B283D133F000544D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF505B0A283D133F000544D7 /* randoma.app */,
-				EF505B1A283D1342000544D7 /* randomaTests.xctest */,
-				EF505B24283D1342000544D7 /* randomaUITests.xctest */,
+				EF505B0A283D133F000544D7 /* lyrica.app */,
+				EF505B1A283D1342000544D7 /* lyricaTests.xctest */,
+				EF505B24283D1342000544D7 /* lyricaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF505B0C283D133F000544D7 /* randoma */ = {
+		EF505B0C283D133F000544D7 /* lyrica */ = {
 			isa = PBXGroup;
 			children = (
-				EF505B0D283D133F000544D7 /* randomaApp.swift */,
+				EF505B0D283D133F000544D7 /* lyricaApp.swift */,
 				EF505B0F283D133F000544D7 /* ContentView.swift */,
 				EF505B11283D1342000544D7 /* Assets.xcassets */,
 				EF505B13283D1342000544D7 /* Preview Content */,
+				EF505B37283D1CBF000544D7 /* README.md */,
 			);
-			path = randoma;
+			path = lyrica;
 			sourceTree = "<group>";
 		};
 		EF505B13283D1342000544D7 /* Preview Content */ = {
@@ -110,29 +112,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		EF505B1D283D1342000544D7 /* randomaTests */ = {
+		EF505B1D283D1342000544D7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EF505B1E283D1342000544D7 /* randomaTests.swift */,
+				EF505B1E283D1342000544D7 /* lyricaTests.swift */,
 			);
-			path = randomaTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		EF505B27283D1342000544D7 /* randomaUITests */ = {
+		EF505B27283D1342000544D7 /* lyricaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EF505B28283D1342000544D7 /* randomaUITests.swift */,
-				EF505B2A283D1342000544D7 /* randomaUITestsLaunchTests.swift */,
+				EF505B28283D1342000544D7 /* lyricaUITests.swift */,
+				EF505B2A283D1342000544D7 /* lyricaUITestsLaunchTests.swift */,
 			);
-			path = randomaUITests;
+			path = lyricaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF505B09283D133F000544D7 /* randoma */ = {
+		EF505B09283D133F000544D7 /* lyrica */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF505B2E283D1342000544D7 /* Build configuration list for PBXNativeTarget "randoma" */;
+			buildConfigurationList = EF505B2E283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyrica" */;
 			buildPhases = (
 				EF505B06283D133F000544D7 /* Sources */,
 				EF505B07283D133F000544D7 /* Frameworks */,
@@ -142,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = randoma;
+			name = lyrica;
 			productName = randoma;
-			productReference = EF505B0A283D133F000544D7 /* randoma.app */;
+			productReference = EF505B0A283D133F000544D7 /* lyrica.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF505B19283D1342000544D7 /* randomaTests */ = {
+		EF505B19283D1342000544D7 /* lyricaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF505B31283D1342000544D7 /* Build configuration list for PBXNativeTarget "randomaTests" */;
+			buildConfigurationList = EF505B31283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyricaTests" */;
 			buildPhases = (
 				EF505B16283D1342000544D7 /* Sources */,
 				EF505B17283D1342000544D7 /* Frameworks */,
@@ -160,14 +162,14 @@
 			dependencies = (
 				EF505B1C283D1342000544D7 /* PBXTargetDependency */,
 			);
-			name = randomaTests;
+			name = lyricaTests;
 			productName = randomaTests;
-			productReference = EF505B1A283D1342000544D7 /* randomaTests.xctest */;
+			productReference = EF505B1A283D1342000544D7 /* lyricaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF505B23283D1342000544D7 /* randomaUITests */ = {
+		EF505B23283D1342000544D7 /* lyricaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF505B34283D1342000544D7 /* Build configuration list for PBXNativeTarget "randomaUITests" */;
+			buildConfigurationList = EF505B34283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyricaUITests" */;
 			buildPhases = (
 				EF505B20283D1342000544D7 /* Sources */,
 				EF505B21283D1342000544D7 /* Frameworks */,
@@ -178,9 +180,9 @@
 			dependencies = (
 				EF505B26283D1342000544D7 /* PBXTargetDependency */,
 			);
-			name = randomaUITests;
+			name = lyricaUITests;
 			productName = randomaUITests;
-			productReference = EF505B24283D1342000544D7 /* randomaUITests.xctest */;
+			productReference = EF505B24283D1342000544D7 /* lyricaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF505B05283D133F000544D7 /* Build configuration list for PBXProject "randoma" */;
+			buildConfigurationList = EF505B05283D133F000544D7 /* Build configuration list for PBXProject "lyrica" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF505B09283D133F000544D7 /* randoma */,
-				EF505B19283D1342000544D7 /* randomaTests */,
-				EF505B23283D1342000544D7 /* randomaUITests */,
+				EF505B09283D133F000544D7 /* lyrica */,
+				EF505B19283D1342000544D7 /* lyricaTests */,
+				EF505B23283D1342000544D7 /* lyricaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF505B10283D133F000544D7 /* ContentView.swift in Sources */,
-				EF505B0E283D133F000544D7 /* randomaApp.swift in Sources */,
+				EF505B0E283D133F000544D7 /* lyricaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF505B1F283D1342000544D7 /* randomaTests.swift in Sources */,
+				EF505B1F283D1342000544D7 /* lyricaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF505B29283D1342000544D7 /* randomaUITests.swift in Sources */,
-				EF505B2B283D1342000544D7 /* randomaUITestsLaunchTests.swift in Sources */,
+				EF505B29283D1342000544D7 /* lyricaUITests.swift in Sources */,
+				EF505B2B283D1342000544D7 /* lyricaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		EF505B1C283D1342000544D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF505B09283D133F000544D7 /* randoma */;
+			target = EF505B09283D133F000544D7 /* lyrica */;
 			targetProxy = EF505B1B283D1342000544D7 /* PBXContainerItemProxy */;
 		};
 		EF505B26283D1342000544D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF505B09283D133F000544D7 /* randoma */;
+			target = EF505B09283D133F000544D7 /* lyrica */;
 			targetProxy = EF505B25283D1342000544D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"randoma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lyrica/Preview Content\"";
 				DEVELOPMENT_TEAM = PYCXV3YHVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,8 +432,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.veritem.randoma;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.veritem.lyrics;
+				PRODUCT_NAME = lyrica;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"randoma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lyrica/Preview Content\"";
 				DEVELOPMENT_TEAM = PYCXV3YHVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,8 +461,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.veritem.randoma;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.veritem.lyrics;
+				PRODUCT_NAME = lyrica;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/randoma.app/randoma";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lyrica.app/lyrica";
 			};
 			name = Debug;
 		};
@@ -503,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/randoma.app/randoma";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lyrica.app/lyrica";
 			};
 			name = Release;
 		};
@@ -546,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF505B05283D133F000544D7 /* Build configuration list for PBXProject "randoma" */ = {
+		EF505B05283D133F000544D7 /* Build configuration list for PBXProject "lyrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF505B2C283D1342000544D7 /* Debug */,
@@ -555,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF505B2E283D1342000544D7 /* Build configuration list for PBXNativeTarget "randoma" */ = {
+		EF505B2E283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF505B2F283D1342000544D7 /* Debug */,
@@ -564,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF505B31283D1342000544D7 /* Build configuration list for PBXNativeTarget "randomaTests" */ = {
+		EF505B31283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyricaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF505B32283D1342000544D7 /* Debug */,
@@ -573,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF505B34283D1342000544D7 /* Build configuration list for PBXNativeTarget "randomaUITests" */ = {
+		EF505B34283D1342000544D7 /* Build configuration list for PBXNativeTarget "lyricaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF505B35283D1342000544D7 /* Debug */,
