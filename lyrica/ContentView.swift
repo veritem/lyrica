@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  randoma
+//  lyrica
 //
 //  Created by Makuza Mugabo Verite on 24/05/2022.
 //
@@ -36,6 +36,7 @@ struct ContentView: View {
                   .padding()
             }
             .navigationTitle("Lyrica")
+            .frame(width: 400, height: 200, alignment: .center)
         }
     }
 }
