@@ -11,7 +11,7 @@ import SwiftUI
 struct randomaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

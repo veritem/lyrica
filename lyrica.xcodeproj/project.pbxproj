@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0923A2283DFCE900A23696 /* LyricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0923A1283DFCE900A23696 /* LyricView.swift */; };
 		EF505B0E283D133F000544D7 /* lyricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0D283D133F000544D7 /* lyricaApp.swift */; };
-		EF505B10283D133F000544D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0F283D133F000544D7 /* ContentView.swift */; };
+		EF505B10283D133F000544D7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B0F283D133F000544D7 /* HomeView.swift */; };
 		EF505B12283D1342000544D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF505B11283D1342000544D7 /* Assets.xcassets */; };
 		EF505B15283D1342000544D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF505B14283D1342000544D7 /* Preview Assets.xcassets */; };
 		EF505B1F283D1342000544D7 /* lyricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF505B1E283D1342000544D7 /* lyricaTests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF0923A1283DFCE900A23696 /* LyricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricView.swift; sourceTree = "<group>"; };
 		EF505B0A283D133F000544D7 /* lyrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF505B0D283D133F000544D7 /* lyricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaApp.swift; sourceTree = "<group>"; };
-		EF505B0F283D133F000544D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF505B0F283D133F000544D7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EF505B11283D1342000544D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF505B14283D1342000544D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF505B1A283D1342000544D7 /* lyricaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lyricaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +46,6 @@
 		EF505B24283D1342000544D7 /* lyricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lyricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF505B28283D1342000544D7 /* lyricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaUITests.swift; sourceTree = "<group>"; };
 		EF505B2A283D1342000544D7 /* lyricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EF505B37283D1CBF000544D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				EF505B0D283D133F000544D7 /* lyricaApp.swift */,
-				EF505B0F283D133F000544D7 /* ContentView.swift */,
+				EF505B0F283D133F000544D7 /* HomeView.swift */,
 				EF505B11283D1342000544D7 /* Assets.xcassets */,
 				EF505B13283D1342000544D7 /* Preview Content */,
-				EF505B37283D1CBF000544D7 /* README.md */,
+				EF0923A1283DFCE900A23696 /* LyricView.swift */,
 			);
 			path = lyrica;
 			sourceTree = "<group>";
@@ -259,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF505B10283D133F000544D7 /* ContentView.swift in Sources */,
+				EF505B10283D133F000544D7 /* HomeView.swift in Sources */,
+				EF0923A2283DFCE900A23696 /* LyricView.swift in Sources */,
 				EF505B0E283D133F000544D7 /* lyricaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
